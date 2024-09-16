@@ -1,12 +1,12 @@
 const mongoose = require('mongoose');
 
-// password - MkLFuM7BihpNC33M
-// username - syadavbhu00016
-// mongodb+srv://syadavbhu00016:MkLFuM7BihpNC33M@employeedashboard.cmpfq.mongodb.net/
+// password - M33M
+// username - sy16
+// mongodb+srv://syadodb.net/
 
 const connectDB = async () => {
   try {
-    await mongoose.connect('mongodb+srv://syadavbhu00016:MkLFuM7BihpNC33M@employeedashboard.cmpfq.mongodb.net/', {
+    await mongoose.connect('', {
       useNewUrlParser: true,
       useUnifiedTopology: true,
     });
